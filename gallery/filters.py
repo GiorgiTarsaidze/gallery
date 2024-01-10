@@ -4,4 +4,4 @@ from .models import Artwork
 class ArtworkFilter(django_filters.FilterSet):
     class Meta:
         model = Artwork
-        fields = ['artist', 'creation_date']
+        fields = ['artist', 'creation_date', 'description']
